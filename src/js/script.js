@@ -108,3 +108,17 @@ console.log("Exercicio 8: \n")
 
 const nome = prompt("Qual seu nome?");
 console.log(`Olá, ${nome}!`);
+
+// Exercicio 9 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 9: \n")
+
+let senha1 = prompt("Digite a senha atual: ")
+let novaSenha = prompt("Digite a nova senha: ")
+
+if (novaSenha !== senha1) {
+  console.log("Senha alterada com sucesso!");
+  senha = novaSenha;
+} else {
+  console.log("A nova senha deve ser diferente da senha atual.");
+}
