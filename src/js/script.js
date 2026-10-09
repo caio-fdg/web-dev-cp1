@@ -122,3 +122,16 @@ if (novaSenha !== senha1) {
 } else {
   console.log("A nova senha deve ser diferente da senha atual.");
 }
+
+// Exercicio 10 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 10: \n")
+
+const valorProduto = parseFloat(prompt("Digite o valor do produto: "))
+const valorDesconto = parseFloat(prompt("Digite a porcentagem de desconto: (%)"));
+
+const valorFinal = valorProduto - (valorProduto * (valorDesconto / 100));
+
+console.log("Valor do Produto: R$", valorProduto.toFixed(2));
+console.log(`Desconto de ${valorDesconto}%: R$ ${(valorProduto * (valorDesconto / 100)).toFixed(2)}`);
+console.log("Valor Final: R$", valorFinal.toFixed(2));
