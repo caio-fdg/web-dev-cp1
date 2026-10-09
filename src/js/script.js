@@ -1,3 +1,5 @@
+// Desenvolvido por Caio Fernando de Deus Gomes
+
 // Exercicio 1 --------------------------------------------------------------------------
 console.log("***************************************************\n")
 console.log("Exercicio 1: \n")
