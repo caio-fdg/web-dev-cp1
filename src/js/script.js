@@ -52,3 +52,11 @@ const herois = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"]
 for (let i = 0; i < herois.length; i++) {
   console.log("Herói: ", herois[i]);
 }
+
+// Exercicio 5 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 5: \n")
+
+const temPermissao = prompt("tem permissão? (s / n").toLowerCase();
+const mensagem = temPermissao === "s" ? "Você tem permissão." : "Você não tem permissão.";
+console.log(mensagem);
