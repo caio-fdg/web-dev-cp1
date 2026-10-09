@@ -76,3 +76,28 @@ if (usuario === usuarioCadastrado && senha === senhaCadastrada) {
 } else {
   console.log("Falha!!! \nUsuário ou senha incorretos.");
 }
+
+// Exercicio 7 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 7: \n")
+
+const notas = [];
+for (let i = 1; i <= 7; i++) {
+  const nota = parseFloat(prompt(`Digite a ${i} nota: `));
+  notas.push(nota);
+}
+
+let soma = 0;
+for (let i = 0; i < notas.length; i++) {
+  soma += notas[i];
+}
+const media = soma / notas.length;
+
+console.log("Notas: ", notas);
+console.log("Média: ", media.toFixed(2));
+
+if (media >= 6) {
+  console.log("Aluno aprovado!");
+} else {
+  console.log("Aluno reprovado!");
+}
