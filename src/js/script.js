@@ -101,3 +101,10 @@ if (media >= 6) {
 } else {
   console.log("Aluno reprovado!");
 }
+
+// Exercicio 8 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 8: \n")
+
+const nome = prompt("Qual seu nome?");
+console.log(`Olá, ${nome}!`);
