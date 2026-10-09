@@ -60,3 +60,19 @@ console.log("Exercicio 5: \n")
 const temPermissao = prompt("tem permissão? (s / n").toLowerCase();
 const mensagem = temPermissao === "s" ? "Você tem permissão." : "Você não tem permissão.";
 console.log(mensagem);
+
+// Exercicio 6 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 6: \n")
+
+const usuarioCadastrado = "admin";
+const senhaCadastrada = "1234";
+
+const usuario = prompt("usuário:")
+const senha = prompt("senha: ")
+
+if (usuario === usuarioCadastrado && senha === senhaCadastrada) {
+  console.log("Login realizado com sucesso!");
+} else {
+  console.log("Falha!!! \nUsuário ou senha incorretos.");
+}
