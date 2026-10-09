@@ -42,3 +42,13 @@ console.log("Exercicio 3: \n")
 for (let i = 1; i <= 10; i++) {
   console.log("O valor da contagem é: ", i);
 }
+
+// Exercicio 4 --------------------------------------------------------------------------
+console.log("\n***************************************************")
+console.log("Exercicio 4: \n")
+
+const herois = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
+
+for (let i = 0; i < herois.length; i++) {
+  console.log("Herói: ", herois[i]);
+}
